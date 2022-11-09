@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/faq1.css">
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script src="script/faq.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".answer1").hide();
+            $(".answer2").hide();
+            $(".answer3").hide();
+
+            $(".question1").click(function(){
+                $(".answer1").slideToggle();
+            });
+            $(".question2").click(function(){
+                $(".answer2").slideToggle();
+            });
+            $(".question3").click(function(){
+                $(".answer3").slideToggle();
+            });
+        });
+    </script>
+        
+    <title>Hoops Universe</title>
+</head>
+<body>
+    
+    <!-- header + navigation -->
+    <div class="navigation">
+
+        <div class="logo">
+            <img src="Logo.png">
+        </div>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">HOME</a>
+            <ul>
+                <li><a href="home.html">New Arrival</a>
+                <li><a href="home.html">Best Seller</a>
+            </ul>
+            </li>
+            <li><a href="Shoes.html">SHOES</a></li>
+            <li><a href="Accessories.html">ACCESSORIES</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    </div>
+
+    <div class="content">
+      
+        <div class="dropdown">
+        <button class="categori">CATEGORIES</button>
+        <div class="dropdown-child">
+          <a href="faq1.html">Purchase & Payment</a>
+          <a href="faq2.html">Product Delivery</a>
+          <a href="faq3.html">Returns & Refunds</a>
+          <a href="FAQ.html">FAQ</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="title">Returns & Refunds</div>
+        <div class="faq1">
+            <div class="question">
+                <div class="question1"> How can I return the goods to the seller?</div>
+            </div>
+            <div class="answer">
+                <div class="answer1">With sending proof of facts that match the goods, the reason for wanting to return the goods and a statement letter for returning the goods.</div>
+            </div>
+
+            <div class="question">
+                <div class="question2">How are refunds processed?</div>
+            </div>
+            <div class="answer">
+                <div class="answer2">payment of funds by bank transfer</div>
+            </div>
+
+            <div class="question">
+                <div class="question3">How long is the product return limit?</div>
+            </div>
+            <div class="answer">
+                <div class="answer3">Return of goods is carried out with a maximum of 7 days after receiving the goods?</div>
+            </div>
+                
+
+        </div>
+        </div>
+        <div class="contactus">
+            <h4>For More</h4>
+            <h4>Contact Us</h4>
+            <h4>+62-123-456-789</h4>
+            <h4>Email : hoops.universe@gmail.com</h4>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="contentt">
+            <div class="row">
+                <div class="footer-2">
+                    <img src="Logo.png">
+                    <p>Never Say Never Because Limits, Like Fears, Are Often Just Illusions<br>- Michael Jordan</p>
+                </div>
+                <div class="footer-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Home Page</li>
+                        <li>FAQ</li>
+                        <li>Shoes</li>
+                        <li>Accessories</li>
+                    </ul>
+                </div>
+                <div class="footer-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright Hoops Universe</p>
+        </div>
+    </div>
+</body>
+</html>

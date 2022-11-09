@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/shoes1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script src="script/purchase.js" defer></script>
+    <title>Hoops Universe</title>
+</head>
+<body>
+    <div class="navigation">
+
+        <div class="logo">
+            <img src="Logo.png">
+        </div>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">HOME</a>
+            <ul>
+                <li><a href="home.html">New Arrival</a>
+                <li><a href="home.html">Best Seller</a>
+            </ul>
+            </li>
+            <li><a href="Shoes.html">SHOES</a></li>
+            <li><a href="Accessories.html">ACCESSORIES</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    </div>
+
+    <center>
+    <div class="container">  
+        <div class="detail">
+           <img src="Assets/Kyrie 3 Id Men S.png"> 
+           <h4>Kyrie 2 Red Rose Edition</h4>
+           <div class="rating">
+            <img src="Assets/Starfull.png">
+            <img src="Assets/Starfull.png">
+            <img src="Assets/Starfull.png">
+            <img src="Assets/Starfull.png">
+            <img src="Assets/Starfull.png">
+        </div>
+        <p>$110.00</p>
+        </div>
+        <div class="Product">
+            <h4>Size 41/42/43/44/45</h4>
+          
+  
+            <h3>--Detail Product--</h3>
+  
+            <p> * Transformed, rounded sole ensures smooth transitions, while maintaining excellent maneuverability.  </p>
+            <p> * Due to the use of slender system Zoom Air, which is located at the rear of the shoe, the entire structure is much lighter.</p>
+            <p> * The Nike Zoom provides vibration damping.</p>
+            <p> * Mesh collar and tongue of the shoe to protect the foot from overheating.</p>
+            <p> * The innovative tread pattern, which is extended up to the side walls of the sole ensures perfect grip.</p>   
+            <p> * In addition, adding a belt structure increases the stabilization of the foot.</p>   
+        </div>
+        
+
+        <h1>ORDER PRODUCT</h1>  
+        <form action="purchase1.html" id="myForm">
+            <table>
+                <tr>
+                <td> Full Name </td>
+                <td>
+                    <input class="forms" type="text" name="fullnameTxt">
+                    </td>
+                </tr>
+
+                <tr>
+                <td> Phone Number </td>
+                <td>
+                    <input class="forms" type="tel" name="phoneTxt">
+                    </td>
+                </tr>
+
+                <tr>
+                <td> Email </td>
+                <td>
+                    <input class="forms" type="email" name="emailTxt">
+                    </td>
+                </tr>
+
+                <tr>
+                <td> Gender </td>
+                <td>
+                    <select class="forms" name="genderTxt">
+                        <option value="">Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="FEMALE">Female</option>
+                    </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Age </td>
+                    <td>
+                        <input class="forms" type="number" name="ageTxt">
+                        </td>
+                    </tr>
+
+                <tr>
+                <td> Address </td>
+                <td>
+                    <input class="forms" type="text" name="addressTxt">
+                    </td>
+                </tr>
+
+                <tr>
+                <td> District </td>
+                <td>
+                    <input class="forms" type="text" name="districtTxt">
+                    </td>
+                </tr>
+                
+                <tr>
+                <td> Postal Code </td>
+                <td>
+                    <input class="forms" type="number" name="postalCodeTxt">
+                    </td>
+                </tr>
+
+                
+
+                <tr>
+                    <td colspan="2"> 
+                        <input type="checkbox" name="agree" value="true" id="agree" > 
+                        <label for="agree">I agree to the term and conditions </label>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2">
+                        <p id="errorMessage"></p>
+                    </td>
+                </tr>
+
+                <!-- <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button type="submit">
+                            CONFIRM
+                        </button>
+                    </td>
+                </tr> -->
+            <!-- </table>
+        </form> -->
+
+        
+        <form class="" action="purchase1.html" method="post">
+            <input required class="input-form laf" type="text" name="" value="" placeholder="Name Product">  
+            <input required class="input-form laf" type="number" name="" value="" placeholder="Size">
+            <input required class="input-form-number laf" type="number" name="" value="" placeholder="Quantity" ">
+            <input required class="input-form-number laf" type="number" name="" value="" placeholder="Price">
+            <textarea class="input-form" cols="5" rows="5" name="comment" placeholder="Notes" ></textarea>
+            </textarea>
+
+          <div style="overflow-x:auto;">
+           
+            <table border=0 cellpadding="10">
+                <label>Choose Payment</label>
+              <tr>
+                <th><input type="checkbox"  value=""><img src="Assets/payment/bni.png" width="60px" height="20px"></th>
+                <th><input type="checkbox"  value=""><img src="Assets/payment/logo-bca.png" width="60px" height="20px"></th>
+                <th><input type="checkbox"  value=""><img src="Assets/payment/bri.png" width="60px" height="25px"></th>
+                <th><input type="checkbox"  value=""><img src="Assets/payment/bjb.png" width="60px" height="30px"></th>
+                <th><input type="checkbox"  value=""><img src="Assets/payment/bankdki.png" width="60px" height="25px"></th>
+                <th><input type="checkbox"  value=""><img src="Assets/payment/bankbb.png" width="60px" height="20px"></th>
+            </tr>
+            <tr>
+                <th><input type="checkbox"  value=""><img src="Assets/payment/visa.png" width="60px" height="30px"></th>
+                <th><input type="checkbox"  value=""><img src="Assets/payment/masterc.png" width="60px" height="30px"></th>
+                <th><input type="checkbox"  value=""><img src="Assets/payment/paypal.png" width="60px" height="20px"></th>
+                <th><input type="checkbox"  value=""><img src="Assets/payment/alfa.jpg" width="70px" height="50px"></th>
+                <th><input type="checkbox"  value=""><img src="Assets/payment/indomaret.png" width="60px" height="20px"></th>
+                <th><input type="checkbox"  value=""><img src="Assets/payment/gopay.jpg" width="65px" height="40px"></th>
+            </tr>
+            </table>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <button type="submit">
+                            PURCHASE CONFIRM
+                        </button>
+                    </td>
+                </tr>
+            </table>
+          </div>
+          </form>
+        </table>
+    </form>
+    
+    </div>
+    </center>
+    
+      <!-- footer -->
+      <div class="footer">
+        <div class="contentt">
+            <div class="row">
+                <div class="footer-2">
+                    <img src="Logo.png">
+                    <p>Never Say Never Because Limits, Like Fears, Are Often Just Illusions<br>- Michael Jordan</p>
+                </div>
+                <div class="footer-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <a href="home.html">
+                            <li>Home Page</li>
+                        </a>
+                        <a href="faq.html">
+                            <li>FAQ</li>
+                        </a>
+                        <a href="Shoes.html">
+                            <li>Shoes</li>
+                        </a>
+                        <a href="Accessories.html">
+                            <li>Accessories</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <a href="https://www.facebook.com/">
+                            <li>Facebook</li>
+                        </a>
+                        <a href="https://www.Instagram.com/">
+                            <li>Instagram</li>
+                        </a>
+                        <a href="https://www.Twitter.com/">
+                            <li>Twitter</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright Hoops Universe</p>
+        </div>
+    </div>
+</body>
+</html>

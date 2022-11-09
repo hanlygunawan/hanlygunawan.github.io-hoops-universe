@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation{
+    padding: 18px 0;
+    background-color: #A9A9A9;
+    display: flex;
+    /* opacity: 84%; */
+    list-style: none;
+    height: 8%;
+    width: 100%;
+    align-items: center;
+    /* position: fixed; */
+}
+.logo img{
+    height: 75px;
+    display: flex;
+    padding-left: 30px;
+}
+.logo img:hover{
+   transform: translateX(15px);
+   opacity: 80%;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    color: black;
+    display: inline-block;
+    margin-right: 50px;
+    text-decoration: none;
+    height: 100%;
+    flex: 1;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    display: block;
+}
+
+.navigation ul>li :hover{
+    /* background-color: #838383; */
+    color: white;
+    /* font-size: 35px; */
+}
+/* DropDown */
+
+nav>ul>li>ul{
+    width: 100%;
+    list-style: none;
+    position: absolute;
+    display: none;
+    padding: 10px 14px;
+    z-index: 1;
+}
+nav>ul>li:hover>ul{
+    background-color: rgb(88, 88, 88);
+    display: block;
+    opacity: 70%;
+    border: orange;
+    text-align: center;
+}
+
+nav>ul>li>ul>li:hover{
+    background-color: rgb(88, 88, 88);;
+    font-weight: bolder;
+    border: orange;
+    text-align: center;
+}
+nav>ul>li>ul>li a:hover{
+    opacity: 100%;
+}
+
+.container{
+    text-align: center;
+    
+}
+.container a{
+    background: gray;
+}
+
+.container a:hover{
+    background: #9a9a9a;
+}
+
+/* Brands */
+
+.brands{
+    margin: 100px auto;
+    padding-top: 10px;
+}
+
+.img2{
+    width: 160px;
+}
+
+.img2 img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+.footer{
+    background: black;
+    color: #8a8a8a;
+    font-size: 14px;
+    /* padding: 60px 0 20px; */
+    /* height: 370px; */
+    /* min-height: 100px; */
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h3{
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-2, .footer-3, .footer-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+
+.footer-2{
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.footer-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footer-3 , .footer-4{
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.footer-4{
+    padding-bottom: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 10px 0;
+}
+
+.copyright{
+    text-align: center;
+}
